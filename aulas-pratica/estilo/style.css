@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.linear{
+    height: 250px;
+    background-image: linear-gradient(35deg, lightblue, lightcoral);
+}
+.radial{
+    height: 250px;
+    background-image: radial-gradient(circle, rgb(55, 205, 255),rgb(1, 30, 83));
+}
+.bike{
+    height: 600px;
+    background: lightblue url(../img/bicicleta.jpg) no-repeat left top;
+    background-size: cover;
+    display: flex;
+}
+h1{
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 300px;
+    margin: auto ;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.pattern{
+    
+    height: 300px;
+    background-image: url(../img/pattern.svg);
+    background-color: tomato;
+    background-size: 50px;
+}

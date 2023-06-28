@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+}
+.cabeca{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+}
+.cabeca-titulo{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.cabeca-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.cabeca-link{
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 4px;
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    max-width: 1000px;
+    
+    margin: auto;
+    
+}
+.content-h2::before{
+    width: 4px;
+    height: 4px;
+    color: red;
+}
+.content-img-bikcraft-img{
+    width: 100%;
+}

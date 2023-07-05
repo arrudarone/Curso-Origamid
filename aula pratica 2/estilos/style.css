@@ -25,7 +25,7 @@ body{
     font-size: 3rem;
 }
 .cabeca-link:hover{
-   box-shadow: inset 0px 0px 1px 1px #e21;
+   border-color: #e21;
    background-color: rgba(99, 99, 99, 0.192);
    color: white;
    box-sizing: border-box;
@@ -43,6 +43,7 @@ body{
     color: black;
     text-transform: uppercase;
     background-color: white;
+    border: 2px solid white;
     padding: 15px 10px;
     border-radius: 4px;
     
@@ -68,6 +69,16 @@ body{
 }
 .content-txt-h2{
     margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.content-txt::before{
+    content: "";
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -15px;
+    width: 60px;
+    height: 5px;
+    background-color: #e21;
 }
 .content-txt-button{
     color: white;
@@ -78,10 +89,11 @@ body{
     margin-top: 15px;
     display: inline-block;
     background-color: #ee2211;
+    border:2px solid #e21 ;
 }
 .content-txt-button:hover{
-    background-color: #640f08;
-    border: 2px solid #e21;
+    background-color: #5a0f0f;
+    border: 2px solid rgb(255, 95, 80);
     transition: 0.1s;
 }
 .content-marca{
@@ -134,6 +146,8 @@ body{
     padding: 10px;
     width: 98%;
     
+    
+    
 
 } 
 p > strong#negrito{
@@ -146,7 +160,9 @@ span{
 }
 .content-vantage-div1:hover, .content-vantage-div2:hover, .content-vantage-div3:hover{
     box-sizing: border-box;
-    box-shadow: -3px 0px 0px 0px #e21;
+   
+    border-left: 4px solid #e21;
+    
 }
 .content-vantage-div1{
     background-color: #dddddd;

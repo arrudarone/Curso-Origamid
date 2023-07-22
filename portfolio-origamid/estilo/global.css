@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    color: #141414;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}

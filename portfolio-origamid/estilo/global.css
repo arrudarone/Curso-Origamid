@@ -14,6 +14,7 @@ ul{
 img{
     max-width: 100%;
     display: block;
+    height: auto; /*mantem a razão da imagem , até quando for definido tamanho no html*/
 }
 .subtitulo{
     

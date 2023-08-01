@@ -8,3 +8,12 @@ body{
 input#button {
     cursor: pointer;
 }
+div{
+    background: tomato;
+    padding: 20px;
+
+}
+p + p {
+    margin-top: 60px;
+    
+}

@@ -1,0 +1,10 @@
+body{
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 40px;
+}
+input#button {
+    cursor: pointer;
+}
